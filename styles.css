@@ -1,0 +1,62 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face {
+    font-family: clockFont;
+    src: url(digital-7.ttf);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #133305;
+    margin: 0;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.score-board {
+    width: 8rem;
+    height: 3rem;
+    background-color: #ADF88D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: clockFont;
+    border-radius: 10px;
+}
+
+.holder {
+    width: 16rem;
+    height: 9rem;
+    background-color: #4E992E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 8px;
+}
+
+.display {
+    background-color: #A6FF80;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 5px;
+}
+
+button {
+    width: 4rem;
+    height: 4rem;
+    background-color: #2D6614;
+    border: 0;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ADF88D;
+}
