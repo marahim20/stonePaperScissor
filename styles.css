@@ -9,10 +9,11 @@
 
 body {
     height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #133305;
+    background-color: #B3AFB0;
     margin: 0;
     flex-direction: column;
     gap: 10px;
@@ -21,7 +22,7 @@ body {
 .score-board {
     width: 8rem;
     height: 3rem;
-    background-color: #ADF88D;
+    background-color: #8593AB;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +34,7 @@ body {
 .holder {
     width: 22rem;
     height: 12rem;
-    background-color: #4E992E;
+    background-color: #8593AB;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +44,8 @@ body {
 }
 
 .display {
-    background-color: #A6FF80;
+    background-color: #DFE142;
+    color: red;
     width: 20rem;
     height: 6rem;
     border-radius: 5px;
@@ -56,12 +58,12 @@ body {
 button {
     width: 4rem;
     height: 4rem;
-    background-color: #2D6614;
+    background-color: #E4D4C5;
     border: 0;
     border-radius: 5px;
     font-size: 2rem;
 }
 
 button:hover {
-    background-color: #ADF88D;
+    background-color: #B2A199;
 }
